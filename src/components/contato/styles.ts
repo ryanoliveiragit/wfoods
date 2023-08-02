@@ -5,7 +5,7 @@ export const ContainerContato = styled.div`
   gap: 8.8rem;
   padding: 10rem 7.5rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 
   img {
     border-radius: 11px;
@@ -28,10 +28,36 @@ export const ContainerContato = styled.div`
   }
 `;
 
+export const StyledButton = styled.input`
+  padding: 10px 20px;
+  background-color: ${(props) => props.theme.pink};
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: ${(props) => props.theme["pink-50"]};
+  }
+`;
 export const ContentContact = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  label {
+    font-weight: 600;
+    font-size: .85rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+    input,textarea{
+      padding: .85rem;
+    }
+  }
 
   div {
     gap: .5rem;

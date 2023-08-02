@@ -4,7 +4,7 @@ export const defaultTheme = {
 
     'pink-50': '#07505A',
     'pink-100': '#07505A',
-    'purple-50': '#FCF9FF',
+    'purple-50': '#e9ecef',
 
     'gray-900': '#212529',
     'gray-700': '#495057',
