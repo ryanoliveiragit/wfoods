@@ -20,22 +20,29 @@ export const ContainerFooter = styled.footer`
 `;
 
 export const ContentFooter = styled.div`
-width: 100%;
-    span {
-      margin-top: 1rem;
-    }
-    padding-top: 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 0.2rem;
-    font-size: 0.85rem;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0em;
-    text-align: left;
-    @media screen and (max-width: 900px) {
+  width: 100%;
+  span {
+    margin-top: 1rem;
+  }
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.2rem;
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  @media screen and (max-width: 900px) {
     font-size: 1rem;
+    display: block;
+    div {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
   }
 `;
 
@@ -47,7 +54,7 @@ export const IconsContainer = styled.div`
   gap: 2rem;
   svg {
     cursor: pointer;
-    transition: .3s;
+    transition: 0.3s;
     :hover {
       color: ${(props) => props.theme["pink-100"]};
     }

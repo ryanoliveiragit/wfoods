@@ -13,7 +13,11 @@ export const Container = styled.div`
   @media screen and (max-width: 1300px) {
     padding: 1.6rem 1.5rem;
   }
-
+  .imageProducts {
+    img {
+      width: 100%;
+    }
+  }
 `;
 export const Content = styled.div`
 margin-top: 4rem;
