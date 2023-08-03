@@ -7,7 +7,7 @@ export function Footer() {
         <h1>WFOODS</h1>
         <div>
           <div>
-            <strong>CNPJ</strong> - 50.512.153/0001-96 e-mail
+            <strong>CNPJ</strong> - 50.512.153/0001-96
           </div>
           <div>
             <strong>Email</strong> - contato@distribuidorawfoods.com.br

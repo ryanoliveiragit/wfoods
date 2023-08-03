@@ -10,7 +10,6 @@ import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 
 export function Contato() {
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     AOS.init({ duration: 1000 });

@@ -1,8 +1,17 @@
-import { ContentSobre } from "./styles";
+import { ContainerParceiros, ContentParceiro, ContentSobre } from "./styles";
 import { ContainerSobre, Container } from "./styles";
-import Image from "next/image";
 import { useEffect } from "react";
 import logo from "../../assets/logo.png";
+import sadia from "../../assets/sadialogo.png";
+import aurora from "../../assets/auroralogo.png";
+import catupiru from "../../assets/catupirylogo.png";
+import frimesa from "../../assets/frimesalogo.png";
+import perdigao from "../../assets/perdigãologo.png";
+import quata from "../../assets/quatalogo.png";
+import seara from "../../assets/seara.png";
+import tirolez from "../../assets/tirolezlogo.png";
+import vigor from "../../assets/vigorlogo.png";
+import Image from "next/image";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -30,18 +39,25 @@ export function Sobre() {
           </section>
         </ContentSobre>
       </ContainerSobre>
-      <ContainerSobre id="aboutPartness" className="containerParceiros">
-        <ContentSobre className="parceiross">
-          <section id="Contato" data-aos="fade-up">
+      <ContainerParceiros id="aboutPartness" className="containerParceiros">
+        <ContentParceiro className="parceiross">
+            <section>
             <span>Parceiros</span>
             <h1>Nossos parceiros</h1>
-            <p>
-              SADIA, PERDIGÃO, AURORA, SEARA, CATUPIRY, TIROLEZ, SCALA,VIGOR,
-              QUATA, FRIMESA
-            </p>
-          </section>
-        </ContentSobre>
-      </ContainerSobre>
+            </section>
+          <div id="Contato" data-aos="fade-up">
+            <Image width={80} src={sadia} alt="sadia" />
+            <Image width={80} src={aurora} alt="aurora" />
+            <Image width={80} src={catupiru} alt="catupiru" />
+            <Image width={80} src={frimesa} alt="frimesa" />
+            <Image width={80} src={quata} alt="quata" />
+            <Image width={80} src={seara} alt="seara" />
+            <Image width={80} src={perdigao} alt="perdigao" />
+            <Image width={80} src={tirolez} alt="tirolez" />
+            <Image width={80} src={vigor} alt="vigor" />
+          </div>
+        </ContentParceiro>
+      </ContainerParceiros>
     </Container>
   );
 }

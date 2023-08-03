@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  .containerParceiros {
-    background-color: ${(props) => props.theme.pink}!important;
-  }
   #aboutPartness {
     color: white;
     padding: 1rem 2rem!important;
@@ -22,6 +19,7 @@ export const ContainerSobre = styled.div`
   align-items: center;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 
   @media screen and (max-width: 900px) {
     align-items: center;
@@ -32,6 +30,29 @@ export const ContainerSobre = styled.div`
     gap: 4rem;
   }
 `;
+export const ContainerParceiros = styled(ContainerSobre)`
+  background-color: white;
+`
+export const ContentParceiro = styled.div`
+font-size: 1rem;
+display: flex;
+flex-direction: column;
+padding: 3rem 0rem;
+section>h1,span {
+  color: black!important;
+}
+div {
+  display: flex;
+  gap: 5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+justify-content: space-between;
+gap: 1rem;
+
+`
 export const ContentSobre = styled.div`
   padding: 10rem 7.75rem;
   align-items: center;
@@ -60,7 +81,12 @@ export const ContentSobre = styled.div`
   }
 
   section {
+    width: 100%;
+    gap: 1rem;
     padding: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     span {
       font-size: 0.85rem;

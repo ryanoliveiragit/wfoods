@@ -6,6 +6,7 @@ export const ContainerContato = styled.div`
   padding: 10rem 7.5rem;
   align-items: center;
   justify-content: center;
+  background-color: ${(props) => props.theme["purple-50"]};
 
   img {
     border-radius: 11px;
