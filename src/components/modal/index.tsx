@@ -610,7 +610,6 @@ export const ModalAves = () => {
           7,99 KG
         </p>
       </Dialog>
-      ;
     </div>
   );
 };
