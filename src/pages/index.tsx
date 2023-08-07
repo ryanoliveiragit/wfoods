@@ -15,16 +15,13 @@ import {
   Divider,
 } from "../styles/home/styles";
 import { defaultTheme } from "../styles/themes/default";
-
-import Image from "next/image";
-import logo from "../assets/logo2.png";
+import entrega from "../assets/entrega.png";
 import { Servicos } from "../components/serviços";
 import { MyContext } from "../components/context/MyContext";
 import { Sobre } from "../components/sobre";
 import { Contato } from "../components/contato";
 import { Footer } from "../components/footer";
 import SliderDemo from "../components/swiper/swiper";
-
 
 export default function Home() {
   useEffect(() => {
@@ -51,22 +48,39 @@ export default function Home() {
       <MyContext.Provider value={{ open, setOpen }}>
         <Container id="Inicio" data-aos="fade-up">
           <ContainerHome>
-              <SliderDemo />
+            <SliderDemo />
           </ContainerHome>
 
           <SectionNumbers>
             <div>
-              <Number>Entrega</Number>
-              <span>Entrega em até 24 horas e pagamento facilitado</span>
+              <Number>
+                <img
+                  src="https://cdn.discordapp.com/attachments/1026941177926275115/1138192974887526440/entrega.png"
+                  alt=""
+                />
+              </Number>
+              <span>Entrega em até 24 horas e <br /> pagamento facilitado</span>
               <Divider />
             </div>
             <div>
-              <Number>+500</Number>
+            <Number>
+                <img
+                  src="https://moveracessibilidade.com.br/wp-content/uploads/2017/10/icone-produtos.png"
+                  alt=""
+                />
+              </Number>
+              <h1>+500</h1>
               <span>Produtos disponíveis</span>
               <Divider />
             </div>
             <div>
-              <Number>+4</Number>
+            <Number>
+                <img
+                  src="https://cdn.discordapp.com/attachments/1057305050805968896/1136322612016975973/abcderrrrr.png"
+                  alt=""
+                />
+              </Number>
+              <h1>+5</h1>
               <span>Anos na área</span>
             </div>
           </SectionNumbers>

@@ -138,9 +138,12 @@ export const SectionNumbers = styled.div`
     align-items: center;
     flex-direction: column;
     text-align: center;
-
+    h1 {
+      color: ${(props) => props.theme["pink"]};
+    }
     span {
-      font-weight: normal;
+      font-weight: 600;
+      font-size: 1.2rem;
       color: ${(props) => props.theme["pink-100"]};
     }
   }
@@ -159,12 +162,16 @@ export const Number = styled.span`
   font-weight: 700 !important;
   font-size: 3rem;
   line-height: 62.4px;
-
   color: ${(props) => props.theme["pink-100"]};
+
+  img {
+    border-radius: 20px;
+    width: 120px;
+  }
 `;
 export const Divider = styled.div`
   border-right: 2px solid ${(props) => props.theme["pink-100"]};
-  height: 40%;
+  height: 10rem;
   opacity: 0.5;
   margin-left: 14%;
   width: 15%;

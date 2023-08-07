@@ -3,6 +3,7 @@ import { Container, Content, Cards } from "./styles";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { ModalLaticinio } from "../modal";
 
 export function Servicos() {
   useEffect(() => {
@@ -97,40 +98,36 @@ export function Servicos() {
       </Content>
       <Cards data-aos="fade-up"  className="imageProducts">
         <div data-aos="fade-up">
-          <GoCheck />
-          <h4>LATICÍNIOS EM GERAL</h4>
+          <h4> <GoCheck /> LATICÍNIOS EM GERAL</h4>
           <img src="https://www.donaldson.com/pt-br/compressed-air-process/industries/food-beverage/dairy/_jcr_content/overview/images/item0/image.ctimg.jpeg/1621441359198.jpeg" alt="" />
+          <ModalLaticinio />
         </div>
 
         <div data-aos="fade-up">
-          <GoCheck />
-          <h4>EMBUTIDOS</h4>
+          <h4><GoCheck /> EMBUTIDOS</h4>
           <img src="https://cdn.discordapp.com/attachments/566850308702208001/1136760129149206728/img2.png" alt="" />
         </div>
 
         <div data-aos="fade-up">
-          <GoCheck />
-          <h4>CARNES BOVINAS</h4>
+
+          <h4><GoCheck />CARNES BOVINAS</h4>
           <img src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128864010310/img3.png" alt="" />
         </div>
       </Cards>
 
       <Cards data-aos="fade-up" className="imageProducts">
         <div data-aos="fade-up">
-          <GoCheck />
-          <h4>CARNES SUINAS</h4>
+          <h4><GoCheck /> CARNES SUINAS</h4>
           <img src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128473923705/img4.png" alt="" />
         </div>
 
         <div data-aos="fade-up">
-          <GoCheck />
-          <h4>AVES, MERCEARIA</h4>
+          <h4><GoCheck /> AVES, MERCEARIA</h4>
           <img src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128104837161/img5.png" alt="" />
         </div>
 
         <div data-aos="fade-up">
-          <GoCheck />
-          <h4>PRODUTOS DE LIMPEZA</h4>
+          <h4><GoCheck /> PRODUTOS DE LIMPEZA</h4>
           <img src="https://cdn.discordapp.com/attachments/566850308702208001/1136760127756714034/img6.png" alt="" />
         </div>
       </Cards>

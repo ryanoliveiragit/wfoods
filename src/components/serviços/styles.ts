@@ -9,7 +9,14 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: stretch;
   justify-content: space-around;
-
+  .p-button {
+    background-color: ${(props) => props.theme["pink"]};
+    border: 1px solid ${(props) => props.theme["pink"]};
+    :hover {
+      border: 1px solid ${(props) => props.theme["pink"]};
+      background-color: ${(props) => props.theme["pink-100"]};
+    }
+  }
   @media screen and (max-width: 1300px) {
     padding: 1.6rem 1.5rem;
   }
@@ -63,11 +70,18 @@ export const Cards = styled.div`
     display: flex;
     flex-direction: column;
   }
+  h4 {
+    padding: 1rem;
+    display: flex;
+
+    align-items: center;
+    font-size: 1rem;
+  }
   div {
     border-radius: 6px;
     gap: 1rem;
     width: 100%;
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
     background-color: ${(props) => props.theme.white};
 
     border: 2px solid ${(props) => props.theme.white};
@@ -75,10 +89,7 @@ export const Cards = styled.div`
 
     :hover {
       cursor: pointer;
-
-      border: 2px solid ${(props) => props.theme["pink-100"]};
     }
-
     svg {
       width: 1.5rem;
       color: ${(props) => props.theme.pink};
