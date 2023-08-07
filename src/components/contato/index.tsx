@@ -5,7 +5,7 @@ import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { MdOutlineMail } from "react-icons/md";
-import logo from "../../assets/logo2.png";
+import logo from "../../assets/logo.png";
 import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 
