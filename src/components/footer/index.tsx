@@ -22,6 +22,7 @@ export function Footer() {
             Cruzes
           </div>
         </div>
+        <span>Made withby ❤️ <a className="made" target="_blank" href="https://www.ryanvs.dev/">ryanvs</a></span>
       </ContentFooter>
     </ContainerFooter>
   );

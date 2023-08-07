@@ -20,6 +20,9 @@ export const ContainerFooter = styled.footer`
 `;
 
 export const ContentFooter = styled.div`
+.made {
+  color: #c1c1c1;
+}
   width: 100%;
   span {
     margin-top: 1rem;
