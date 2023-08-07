@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import "keen-slider/keen-slider.min.css"
 
 export const GlobalStyle = createGlobalStyle`
     * {

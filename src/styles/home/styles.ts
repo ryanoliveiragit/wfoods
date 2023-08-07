@@ -2,9 +2,12 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 0rem 7.75rem;
-
+  .swiper {
+    height: 30rem;
+  }
   @media only screen and (max-width: 900px) {
     padding: 1.6rem 1.5rem;
+    height: 40rem;
   }
 `;
 export const ContainerHome = styled.main`

@@ -23,6 +23,8 @@ import { MyContext } from "../components/context/MyContext";
 import { Sobre } from "../components/sobre";
 import { Contato } from "../components/contato";
 import { Footer } from "../components/footer";
+import SliderDemo from "../components/swiper/swiper";
+
 
 export default function Home() {
   useEffect(() => {
@@ -49,15 +51,7 @@ export default function Home() {
       <MyContext.Provider value={{ open, setOpen }}>
         <Container id="Inicio" data-aos="fade-up">
           <ContainerHome>
-            <ContainerBoasVindas>
-              <h1>WFOODS</h1>
-              <p>distribuidora de bebidas e alimentos</p>
-              <button onClick={contact}>Entrar em contato</button>
-            </ContainerBoasVindas>
-
-            <ContainerImage>
-              <Image src={logo} alt="modelo" width={350} />
-            </ContainerImage>
+              <SliderDemo />
           </ContainerHome>
 
           <SectionNumbers>
