@@ -3,7 +3,7 @@ import { Container, Content, Cards } from "./styles";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { ModalLaticinio } from "../modal";
+import { ModalAves, ModalBovinos, ModalEmbutidos, ModalLaticinio, ModalSuinos } from "../modal";
 
 export function Servicos() {
   useEffect(() => {
@@ -106,12 +106,14 @@ export function Servicos() {
         <div data-aos="fade-up">
           <h4><GoCheck /> EMBUTIDOS</h4>
           <img src="https://cdn.discordapp.com/attachments/566850308702208001/1136760129149206728/img2.png" alt="" />
+          <ModalEmbutidos />
         </div>
 
         <div data-aos="fade-up">
 
           <h4><GoCheck />CARNES BOVINAS</h4>
           <img src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128864010310/img3.png" alt="" />
+          <ModalBovinos />
         </div>
       </Cards>
 
@@ -119,11 +121,13 @@ export function Servicos() {
         <div data-aos="fade-up">
           <h4><GoCheck /> CARNES SUINAS</h4>
           <img src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128473923705/img4.png" alt="" />
+          <ModalSuinos />
         </div>
 
         <div data-aos="fade-up">
           <h4><GoCheck /> AVES, MERCEARIA</h4>
           <img src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128104837161/img5.png" alt="" />
+          <ModalAves />
         </div>
 
         <div data-aos="fade-up">
@@ -134,5 +138,5 @@ export function Servicos() {
     </Container>
     
     </>
-  );
+  )
 }
