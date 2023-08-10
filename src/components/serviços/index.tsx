@@ -7,6 +7,7 @@ import { ModalFrangos } from "../modal/aves";
 import { ModalSuinos } from "../modal/suinos";
 import { ModalBovinos } from "../modal/bovinos";
 import { ModalFeijoada } from "../modal/feijoada";
+import { ModalLacticinios } from "../modal/lacticinios";
 
 export function Servicos() {
   useEffect(() => {
@@ -145,6 +146,18 @@ export function Servicos() {
               alt=""
             />
             <ModalFeijoada />
+          </div>
+        </Cards>
+        <Cards>
+          <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Lacticinios
+            </h4>
+            <img
+              src="https://odyssey-international.co.za/wp-content/uploads/2022/06/artigo.jpg"
+              alt=""
+            />
+            <ModalLacticinios />
           </div>
         </Cards>
       </Container>

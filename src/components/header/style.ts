@@ -20,9 +20,9 @@ export const ContainerHeader = styled.header`
     display: flex;
     margin-bottom: .5rem;
     justify-content: center;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
-    padding: .1rem;
+    padding: .3rem;
   }
   z-index: 10;
   background-color: ${(props) => props.theme.white};
