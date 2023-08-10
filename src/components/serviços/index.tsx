@@ -3,13 +3,10 @@ import { Container, Content, Cards } from "./styles";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import {
-  ModalAves,
-  ModalBovinos,
-  ModalEmbutidos,
-  ModalLaticinio,
-  ModalSuinos,
-} from "../modal";
+import { ModalFrangos } from "../modal/aves";
+import { ModalSuinos } from "../modal/suinos";
+import { ModalBovinos } from "../modal/bovinos";
+import { ModalFeijoada } from "../modal/feijoada";
 
 export function Servicos() {
   useEffect(() => {
@@ -104,177 +101,50 @@ export function Servicos() {
           <span>produtos</span>
           <h1>Nossos produtos</h1>
         </Content>
+
         <Cards data-aos="fade-up" className="imageProducts">
           <div data-aos="fade-up">
             <h4>
-              <GoCheck /> LATICÍNIOS EM GERAL
+              <GoCheck /> AVES
             </h4>
             <img
-              src="https://www.donaldson.com/pt-br/compressed-air-process/industries/food-beverage/dairy/_jcr_content/overview/images/item0/image.ctimg.jpeg/1621441359198.jpeg"
+              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128104837161/img5.png"
               alt=""
             />
-            <ModalLaticinio />
+            <ModalFrangos />
           </div>
 
           <div data-aos="fade-up">
             <h4>
-              <GoCheck /> EMBUTIDOS
+              <GoCheck /> Suínos
             </h4>
             <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760129149206728/img2.png"
+              src="https://agroceresmultimix.com.br/blog/wp-content/uploads/2015/06/ergrtgbrtgb.jpg"
               alt=""
             />
-            <ModalEmbutidos />
+            <ModalSuinos />
           </div>
 
           <div data-aos="fade-up">
             <h4>
-              <GoCheck />
-              CARNES BOVINAS
+              <GoCheck /> Bovinos
             </h4>
             <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128864010310/img3.png"
+              src="https://assets.corteva.com/is/image/Corteva/IMG-Pasto-extraordinario-mercado-carne-europeu2?$articleHeader_desktop$"
               alt=""
             />
             <ModalBovinos />
           </div>
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> PRODUTOS DE LIMPEZA
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760127756714034/img6.png"
-              alt=""
-            />
-          </div>
-        </Cards>
-
-        <Cards data-aos="fade-up" className="imageProducts">
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> CARNES SUINAS
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128473923705/img4.png"
-              alt=""
-            />
-            <ModalSuinos />
-          </div>
 
           <div data-aos="fade-up">
             <h4>
-              <GoCheck /> AVES, MERCEARIA
+              <GoCheck /> Feijoada
             </h4>
             <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128104837161/img5.png"
+              src="https://blog.biglar.com.br/wp-content/uploads/2021/10/typical-brazilian-dish-called-feijoada-made-with-black-beans-pork-sausage.jpg"
               alt=""
             />
-            <ModalAves />
-          </div>
-
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> PRODUTOS DE LIMPEZA
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760127756714034/img6.png"
-              alt=""
-            />
-          </div>
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> PRODUTOS DE LIMPEZA
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760127756714034/img6.png"
-              alt=""
-            />
-          </div>
-        </Cards>
-
-        <Cards data-aos="fade-up" className="imageProducts">
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> CARNES SUINAS
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128473923705/img4.png"
-              alt=""
-            />
-            <ModalSuinos />
-          </div>
-
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> AVES, MERCEARIA
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128104837161/img5.png"
-              alt=""
-            />
-            <ModalAves />
-          </div>
-
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> PRODUTOS DE LIMPEZA
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760127756714034/img6.png"
-              alt=""
-            />
-          </div>
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> PRODUTOS DE LIMPEZA
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760127756714034/img6.png"
-              alt=""
-            />
-          </div>
-        </Cards>
-
-        <Cards data-aos="fade-up" className="imageProducts">
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> CARNES SUINAS
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128473923705/img4.png"
-              alt=""
-            />
-            <ModalSuinos />
-          </div>
-
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> AVES, MERCEARIA
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128104837161/img5.png"
-              alt=""
-            />
-            <ModalAves />
-          </div>
-
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> PRODUTOS DE LIMPEZA
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760127756714034/img6.png"
-              alt=""
-            />
-          </div>
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> PRODUTOS DE LIMPEZA
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760127756714034/img6.png"
-              alt=""
-            />
+            <ModalFeijoada />
           </div>
         </Cards>
       </Container>

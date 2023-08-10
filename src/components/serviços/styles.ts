@@ -22,7 +22,8 @@ export const Container = styled.div`
   }
   .imageProducts {
     img {
-      width: 100%;
+      height: 250px;
+      width: 400px;
     }
   }
 `;
