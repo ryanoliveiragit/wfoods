@@ -14,5 +14,9 @@ export const NAV_LINKS = [
 {
     id: 4,
     title: 'Produtos'
+},
+{
+    id: 5,
+    title: 'Entrega'
 }
 ]

@@ -18,23 +18,28 @@ export function Header({ setMenuIsVisible }: any) {
   }
   return (
     <ContainerHeader>
+      <div className="mainHeader">
+        <p>Entrega em até 24 horas e pagamento facilitado</p>
+      </div>
       <nav>
         <div>
           <TitleJu>WFOODS</TitleJu>
         </div>
         <ul>
-          <li id="inicio" onClick={handleClick}>Inicio</li>
+          <li id="inicio" onClick={handleClick}>
+            Inicio
+          </li>
           {NAV_LINKS.map((itens) => {
             return (
-                <Link
-                  key={itens.id}
-                  to={itens.title}
-                  smooth={true}
-                  offset={200}
-                  duration={500}
-                >
-                  {itens.title}
-                </Link>
+              <Link
+                key={itens.id}
+                to={itens.title}
+                smooth={true}
+                offset={200}
+                duration={500}
+              >
+                {itens.title}
+              </Link>
             );
           })}
         </ul>

@@ -1,8 +1,10 @@
 import * as React from "react";
 import { useKeenSlider } from "keen-slider/react";
 import {
+  ImageSlideFive,
   ImageSlideFor,
   ImageSlideOne,
+  ImageSlideSix,
   ImageSlideTree,
   ImageSlideTwo,
   TextSlide,
@@ -50,19 +52,27 @@ export default function SliderDemo() {
       <div ref={sliderRef} className="keen-slider">
         <div className="keen-slider__slide number-slide1">
           <ImageSlideOne />
-          <TextSlide>CARNES BOVINAS</TextSlide>
+          <TextSlide>Frangos</TextSlide>
         </div>
         <div className="keen-slider__slide number-slide2">
           <ImageSlideTwo />
-          <TextSlide>LATICÍNIOS EM GERAL</TextSlide>
+          <TextSlide>Carnes Bovinas</TextSlide>
         </div>
         <div className="keen-slider__slide number-slide3">
           <ImageSlideTree />
-          <TextSlide>CARNES SUINAS</TextSlide>
+          <TextSlide>Carnes Suinas</TextSlide>
         </div>
-        <div className="keen-slider__slide number-slide3">
+        <div className="keen-slider__slide number-slide4">
           <ImageSlideFor />
-          <TextSlide>AVES, MERCEARIA</TextSlide>
+          <TextSlide>Feijoada</TextSlide>
+        </div>
+        <div className="keen-slider__slide number-slide5">
+          <ImageSlideFive />
+          <TextSlide>Lacticínios</TextSlide>
+        </div>
+        <div className="keen-slider__slide number-slide5">
+          <ImageSlideSix />
+          <TextSlide>Embutidos</TextSlide>
         </div>
       </div>
     </>
