@@ -31,9 +31,9 @@ export const ModalLacticinios = () => {
         <p className="m-0">LEITE LONGA VIDA INTEGRAL UHT CXA 12X1L</p>
         <p className="m-0">LEITE SEMI DESNATADO CXA 12X1L</p>
         <p className="m-0">QUEIJO COALHO BARRA +-2KG RESF </p>
-        <p className="m-0">QUEIJO COALHO BARRA +-2KG RESF SANTA CLARA</p>
+        <p className="m-0">QUEIJO COALHO BARRA +-2KG RESF </p>
         <p className="m-0">
-          QUEIJO COALHO BARRA +-3KG RESF  (RONDONIA)
+          QUEIJO COALHO BARRA +-3KG RESF 
         </p>
         <p className="m-0">QUEIJO GORGONZOLA +-3KG RESF </p>
         <p className="m-0">QUEIJO MUSSARELA +-4KG RESF </p>
@@ -44,7 +44,7 @@ export const ModalLacticinios = () => {
         <p className="m-0">QUEIJO MUSSARELA +-4KG RESF </p>
         <p className="m-0">QUEIJO MUSSARELA +-4KG RESF </p>
         <p className="m-0">
-          QUEIJO MUSSARELA +-4KG RESF  (RONDONIA)
+          QUEIJO MUSSARELA +-4KG RESF 
         </p>
         <p className="m-0">QUEIJO MUSSARELA +-4KG RESF </p>
         <p className="m-0">
@@ -57,7 +57,7 @@ export const ModalLacticinios = () => {
         </p>
         <p className="m-0">QUEIJO PARMESAO RALADO MEDIO PCT 20 X 1KG</p>
         <p className="m-0">QUEIJO PRATO +-3KG RESF </p>
-        <p className="m-0">QUEIJO PRATO +-3KG RESF  (RONDONIA)</p>
+        <p className="m-0">QUEIJO PRATO +-3KG RESF </p>
         <p className="m-0">QUEIJO PRATO +-3KG RESF </p>
         <p className="m-0">QUEIJO PROVOLONE DEFUMADO PEÇA 3 X +- 5 KG</p>
         <p className="m-0">QUEIJO PROVOLONE FRESCO DEFUMADO +-5KG RESF SABOR</p>
@@ -78,7 +78,7 @@ export const ModalLacticinios = () => {
           REQUEIJAO CREMOSO TIPO CHEDDAR BISNAGA CXA 6X1,01KG
         </p>
         <p className="m-0">
-          REQUEIJAO CREMOSO TRAD BISNAGA RESF 8X1,8KG  (RONDONIA)
+          REQUEIJAO CREMOSO TRAD BISNAGA RESF 8X1,8KG 
         </p>
         <p className="m-0">
           REQUEIJAO CREMOSO TRADICIONAL BISNAGA CXA 12X1,5KG
