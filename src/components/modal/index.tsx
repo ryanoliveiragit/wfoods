@@ -1427,62 +1427,141 @@ export const ModalBebidas = () => {
         style={{ width: "50vw" }}
         onHide={() => setVisible(false)}
       >
-   <p className="m-0">AGUA DE CÕCO CXA 12 X 1L 21 CX 12 GRFA</p>
-<p className="m-0">AGUA DE COCO TP 12 X 1L 6 CX 12 UNI</p>
-<p className="m-0">AGUA MINERAL CRYSTAL COM GAS PET PCT 12X500ML 10 FARDO 12 UNI</p>
-<p className="m-0">AGUA MINERAL CRYSTAL COM GAS PET PCT 6 X 1,5L 9 FARDO 6 UNI</p>
-<p className="m-0">AGUA MINERAL CRYSTAL SEM GAS PET PCT 12X500ML 21 FARDO 12 UNI</p>
-<p className="m-0">AGUA MINERAL CRYSTAL SEM GAS PET PCT 2X5L 6 FARDO 2 UNI</p>
-<p className="m-0">CERVEJA AMSTEL LAGER GARRAFA 12 X 600ML 4 CX 12 GRFA</p>
-<p className="m-0">CERVEJA AMSTEL LAGER LATA 12 X 269ML 312 CX 12 LATA</p>
-<p className="m-0">CERVEJA HEINEKEN PURO MALTE LATA 350 ML X 12UNID 194 FARDO 12 LATA</p>
-<p className="m-0">CERVEJA HEINEKEN PURO MALTE LATA 8 X 269 ML 1566 FARDO 8 LATA</p>
-<p className="m-0">CERVEJA PILSEN BADEN BADEN LATA 2 X 6 X 350ML 1 FARDO 12 LATA</p>
-<p className="m-0">CERVEJA PURO MALTE HEINEKEN LONG NECK 4X6X330ML 70 CX 24 GRFA</p>
-<p className="m-0">CERVEJA PURO MALTE HEINEKEN SEM ALCOOL 0.0 LATA 12 X 350ML 154 CX 12 LATA</p>
-<p className="m-0">CERVEJA SPATEN LATA CXA 12 X 350ML 83 CX 12 UNI</p>
-<p className="m-0">CERVEJA SPATEN PURO MALTE LONG NECK CXA 24 X 355ML 2 CX 24 UNI</p>
-<p className="m-0">CHOPP PILSEN REFRIGERADO GROWLER CXA 6X1,5L 143 FARDO 6 GRFA</p>
-<p className="m-0">CHOPP STRAAT BIER IPA REFRIGERADO GROWLER CXA 6X1,5L 74 FARDO 6 GRFA</p>
-<p className="m-0">CHOPP STRAAT PALE ALE REFRIGERADO GROWLER CXA 6X1,5L 45 FARDO 6 GRFA</p>
-<p className="m-0">ENERGETICO MONSTER ABSOLUTELY ZERO LATA CXA 6X473ML 1 CX 6 UNI</p>
-<p className="m-0">ENERGETICO MONSTER PACIFIC PUNCH LATA CXA 6X473ML 1 CX 6 UNI</p>
-<p className="m-0">ENERGETICO MONSTER ULTRA PARADISE LATA CXA 6X473ML 3 FARDO 6 UNI</p>
-<p className="m-0">ENERGETICO MONSTER ULTRA VIOLET LATA CXA 6X473ML 2 CX 6 UNI</p>
-<p className="m-0">ENERGETICO MONSTER ULTRA ZERO LATA CXA 6X473ML 1 CX 6 UNI</p>
-<p className="m-0">ESPUMANTE SALTON BRUT CXA 6X750ML 128 CX 6 UNI</p>
-<p className="m-0">ESPUMANTE SALTON MOSCATEL CXA 6X750ML 91 CX 6 UNI</p>
-<p className="m-0">ESPUMANTE SALTON SERIES BRUT CXA 6X750ML 4 CX 6 UNI</p>
-<p className="m-0">ESPUMANTE SALTON SERIES MOSCATEL CXA 6X750ML 19 CX 6 UNI</p>
-<p className="m-0">REFRIGERANTE COCA COLA LATA PCT 12X350ML 32 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE COCA COLA PET PCT 12X600ML 15 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE COCA COLA PET PCT 6X2L 22 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE COCA COLA ZERO LATA PCT 12X350ML 12 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE DOLLY DE GUARANA FDO 6X2L 99 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE DOLLY DE LARANJA FDO 6X2L 123 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE DOLLY DE LIMAO FDO 6X2L 47 CX 6 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA GUARANA PET PCT 6X2L 3 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA LARANJA LATA PCT 12X350ML 4 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA LARANJA PET PCT 12X600ML 10 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA LARANJA PET PCT 6X2L 9 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA UVA LATA PCT 6X350ML 9 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA UVA PET PCT 6X2L 3 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE SPRITE LATA PCT 6X350ML 8 FARDO 6 UNI</p>
-<p className="m-0">SKOL BEATS SENSES LATA CXA 8X269ML 1 CX 8 UNI</p>
-<p className="m-0">SUCO DE UVA INTEGRAL CXA 6X1,5L 1 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON BRANCO FRIZANTE LUNAE CXA 6X750ML 2 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CHALISE BORDO SUAVE CXA 6X1L 2 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CHALISE ROSE SUAVE CXA 6X750ML 16 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CLASSIC DEMI-SEC ROSE CXA 6X750ML 12 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CLASSIC MERLOT CXA 6X750ML 23 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CLASSIC TANNAT CXA 6X750ML 26 CX 6 UNI</p>
-<p className="m-0">VODKA VORUS TRADICIONAL CXA 6X1L 1 CX 6 UNI</p>
-
+        <p className="m-0">AGUA DE CÕCO CXA 12 X 1L 21 CX 12 GRFA</p>
+        <p className="m-0">AGUA DE COCO TP 12 X 1L 6 CX 12 UNI</p>
+        <p className="m-0">
+          AGUA MINERAL CRYSTAL COM GAS PET PCT 12X500ML 10 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          AGUA MINERAL CRYSTAL COM GAS PET PCT 6 X 1,5L 9 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          AGUA MINERAL CRYSTAL SEM GAS PET PCT 12X500ML 21 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          AGUA MINERAL CRYSTAL SEM GAS PET PCT 2X5L 6 FARDO 2 UNI
+        </p>
+        <p className="m-0">
+          CERVEJA AMSTEL LAGER GARRAFA 12 X 600ML 4 CX 12 GRFA
+        </p>
+        <p className="m-0">
+          CERVEJA AMSTEL LAGER LATA 12 X 269ML 312 CX 12 LATA
+        </p>
+        <p className="m-0">
+          CERVEJA HEINEKEN PURO MALTE LATA 350 ML X 12UNID 194 FARDO 12 LATA
+        </p>
+        <p className="m-0">
+          CERVEJA HEINEKEN PURO MALTE LATA 8 X 269 ML 1566 FARDO 8 LATA
+        </p>
+        <p className="m-0">
+          CERVEJA PILSEN BADEN BADEN LATA 2 X 6 X 350ML 1 FARDO 12 LATA
+        </p>
+        <p className="m-0">
+          CERVEJA PURO MALTE HEINEKEN LONG NECK 4X6X330ML 70 CX 24 GRFA
+        </p>
+        <p className="m-0">
+          CERVEJA PURO MALTE HEINEKEN SEM ALCOOL 0.0 LATA 12 X 350ML 154 CX 12
+          LATA
+        </p>
+        <p className="m-0">CERVEJA SPATEN LATA CXA 12 X 350ML 83 CX 12 UNI</p>
+        <p className="m-0">
+          CERVEJA SPATEN PURO MALTE LONG NECK CXA 24 X 355ML 2 CX 24 UNI
+        </p>
+        <p className="m-0">
+          CHOPP PILSEN REFRIGERADO GROWLER CXA 6X1,5L 143 FARDO 6 GRFA
+        </p>
+        <p className="m-0">
+          CHOPP STRAAT BIER IPA REFRIGERADO GROWLER CXA 6X1,5L 74 FARDO 6 GRFA
+        </p>
+        <p className="m-0">
+          CHOPP STRAAT PALE ALE REFRIGERADO GROWLER CXA 6X1,5L 45 FARDO 6 GRFA
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER ABSOLUTELY ZERO LATA CXA 6X473ML 1 CX 6 UNI
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER PACIFIC PUNCH LATA CXA 6X473ML 1 CX 6 UNI
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER ULTRA PARADISE LATA CXA 6X473ML 3 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER ULTRA VIOLET LATA CXA 6X473ML 2 CX 6 UNI
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER ULTRA ZERO LATA CXA 6X473ML 1 CX 6 UNI
+        </p>
+        <p className="m-0">ESPUMANTE SALTON BRUT CXA 6X750ML 128 CX 6 UNI</p>
+        <p className="m-0">ESPUMANTE SALTON MOSCATEL CXA 6X750ML 91 CX 6 UNI</p>
+        <p className="m-0">
+          ESPUMANTE SALTON SERIES BRUT CXA 6X750ML 4 CX 6 UNI
+        </p>
+        <p className="m-0">
+          ESPUMANTE SALTON SERIES MOSCATEL CXA 6X750ML 19 CX 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE COCA COLA LATA PCT 12X350ML 32 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE COCA COLA PET PCT 12X600ML 15 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE COCA COLA PET PCT 6X2L 22 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE COCA COLA ZERO LATA PCT 12X350ML 12 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE DOLLY DE GUARANA FDO 6X2L 99 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE DOLLY DE LARANJA FDO 6X2L 123 FARDO 6 UNI
+        </p>
+        <p className="m-0">REFRIGERANTE DOLLY DE LIMAO FDO 6X2L 47 CX 6 UNI</p>
+        <p className="m-0">
+          REFRIGERANTE FANTA GUARANA PET PCT 6X2L 3 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE FANTA LARANJA LATA PCT 12X350ML 4 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE FANTA LARANJA PET PCT 12X600ML 10 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE FANTA LARANJA PET PCT 6X2L 9 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE FANTA UVA LATA PCT 6X350ML 9 FARDO 6 UNI
+        </p>
+        <p className="m-0">REFRIGERANTE FANTA UVA PET PCT 6X2L 3 FARDO 6 UNI</p>
+        <p className="m-0">
+          REFRIGERANTE SPRITE LATA PCT 6X350ML 8 FARDO 6 UNI
+        </p>
+        <p className="m-0">SKOL BEATS SENSES LATA CXA 8X269ML 1 CX 8 UNI</p>
+        <p className="m-0">SUCO DE UVA INTEGRAL CXA 6X1,5L 1 CX 6 UNI</p>
+        <p className="m-0">
+          VINHO SALTON BRANCO FRIZANTE LUNAE CXA 6X750ML 2 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CHALISE BORDO SUAVE CXA 6X1L 2 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CHALISE ROSE SUAVE CXA 6X750ML 16 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CLASSIC DEMI-SEC ROSE CXA 6X750ML 12 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CLASSIC MERLOT CXA 6X750ML 23 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CLASSIC TANNAT CXA 6X750ML 26 CX 6 UNI
+        </p>
+        <p className="m-0">VODKA VORUS TRADICIONAL CXA 6X1L 1 CX 6 UNI</p>
       </Dialog>
     </div>
   );
 };
-
 
 export const ModalEspetinhos = () => {
   const [visible, setVisible] = useState(false);
@@ -1500,57 +1579,137 @@ export const ModalEspetinhos = () => {
         style={{ width: "50vw" }}
         onHide={() => setVisible(false)}
       >
-   <p className="m-0">AGUA DE CÕCO CXA 12 X 1L 21 CX 12 GRFA</p>
-<p className="m-0">AGUA DE COCO TP 12 X 1L 6 CX 12 UNI</p>
-<p className="m-0">AGUA MINERAL CRYSTAL COM GAS PET PCT 12X500ML 10 FARDO 12 UNI</p>
-<p className="m-0">AGUA MINERAL CRYSTAL COM GAS PET PCT 6 X 1,5L 9 FARDO 6 UNI</p>
-<p className="m-0">AGUA MINERAL CRYSTAL SEM GAS PET PCT 12X500ML 21 FARDO 12 UNI</p>
-<p className="m-0">AGUA MINERAL CRYSTAL SEM GAS PET PCT 2X5L 6 FARDO 2 UNI</p>
-<p className="m-0">CERVEJA AMSTEL LAGER GARRAFA 12 X 600ML 4 CX 12 GRFA</p>
-<p className="m-0">CERVEJA AMSTEL LAGER LATA 12 X 269ML 312 CX 12 LATA</p>
-<p className="m-0">CERVEJA HEINEKEN PURO MALTE LATA 350 ML X 12UNID 194 FARDO 12 LATA</p>
-<p className="m-0">CERVEJA HEINEKEN PURO MALTE LATA 8 X 269 ML 1566 FARDO 8 LATA</p>
-<p className="m-0">CERVEJA PILSEN BADEN BADEN LATA 2 X 6 X 350ML 1 FARDO 12 LATA</p>
-<p className="m-0">CERVEJA PURO MALTE HEINEKEN LONG NECK 4X6X330ML 70 CX 24 GRFA</p>
-<p className="m-0">CERVEJA PURO MALTE HEINEKEN SEM ALCOOL 0.0 LATA 12 X 350ML 154 CX 12 LATA</p>
-<p className="m-0">CERVEJA SPATEN LATA CXA 12 X 350ML 83 CX 12 UNI</p>
-<p className="m-0">CERVEJA SPATEN PURO MALTE LONG NECK CXA 24 X 355ML 2 CX 24 UNI</p>
-<p className="m-0">CHOPP PILSEN REFRIGERADO GROWLER CXA 6X1,5L 143 FARDO 6 GRFA</p>
-<p className="m-0">CHOPP STRAAT BIER IPA REFRIGERADO GROWLER CXA 6X1,5L 74 FARDO 6 GRFA</p>
-<p className="m-0">CHOPP STRAAT PALE ALE REFRIGERADO GROWLER CXA 6X1,5L 45 FARDO 6 GRFA</p>
-<p className="m-0">ENERGETICO MONSTER ABSOLUTELY ZERO LATA CXA 6X473ML 1 CX 6 UNI</p>
-<p className="m-0">ENERGETICO MONSTER PACIFIC PUNCH LATA CXA 6X473ML 1 CX 6 UNI</p>
-<p className="m-0">ENERGETICO MONSTER ULTRA PARADISE LATA CXA 6X473ML 3 FARDO 6 UNI</p>
-<p className="m-0">ENERGETICO MONSTER ULTRA VIOLET LATA CXA 6X473ML 2 CX 6 UNI</p>
-<p className="m-0">ENERGETICO MONSTER ULTRA ZERO LATA CXA 6X473ML 1 CX 6 UNI</p>
-<p className="m-0">ESPUMANTE SALTON BRUT CXA 6X750ML 128 CX 6 UNI</p>
-<p className="m-0">ESPUMANTE SALTON MOSCATEL CXA 6X750ML 91 CX 6 UNI</p>
-<p className="m-0">ESPUMANTE SALTON SERIES BRUT CXA 6X750ML 4 CX 6 UNI</p>
-<p className="m-0">ESPUMANTE SALTON SERIES MOSCATEL CXA 6X750ML 19 CX 6 UNI</p>
-<p className="m-0">REFRIGERANTE COCA COLA LATA PCT 12X350ML 32 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE COCA COLA PET PCT 12X600ML 15 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE COCA COLA PET PCT 6X2L 22 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE COCA COLA ZERO LATA PCT 12X350ML 12 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE DOLLY DE GUARANA FDO 6X2L 99 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE DOLLY DE LARANJA FDO 6X2L 123 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE DOLLY DE LIMAO FDO 6X2L 47 CX 6 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA GUARANA PET PCT 6X2L 3 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA LARANJA LATA PCT 12X350ML 4 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA LARANJA PET PCT 12X600ML 10 FARDO 12 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA LARANJA PET PCT 6X2L 9 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA UVA LATA PCT 6X350ML 9 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE FANTA UVA PET PCT 6X2L 3 FARDO 6 UNI</p>
-<p className="m-0">REFRIGERANTE SPRITE LATA PCT 6X350ML 8 FARDO 6 UNI</p>
-<p className="m-0">SKOL BEATS SENSES LATA CXA 8X269ML 1 CX 8 UNI</p>
-<p className="m-0">SUCO DE UVA INTEGRAL CXA 6X1,5L 1 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON BRANCO FRIZANTE LUNAE CXA 6X750ML 2 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CHALISE BORDO SUAVE CXA 6X1L 2 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CHALISE ROSE SUAVE CXA 6X750ML 16 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CLASSIC DEMI-SEC ROSE CXA 6X750ML 12 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CLASSIC MERLOT CXA 6X750ML 23 CX 6 UNI</p>
-<p className="m-0">VINHO SALTON CLASSIC TANNAT CXA 6X750ML 26 CX 6 UNI</p>
-<p className="m-0">VODKA VORUS TRADICIONAL CXA 6X1L 1 CX 6 UNI</p>
-
+        <p className="m-0">AGUA DE CÕCO CXA 12 X 1L 21 CX 12 GRFA</p>
+        <p className="m-0">AGUA DE COCO TP 12 X 1L 6 CX 12 UNI</p>
+        <p className="m-0">
+          AGUA MINERAL CRYSTAL COM GAS PET PCT 12X500ML 10 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          AGUA MINERAL CRYSTAL COM GAS PET PCT 6 X 1,5L 9 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          AGUA MINERAL CRYSTAL SEM GAS PET PCT 12X500ML 21 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          AGUA MINERAL CRYSTAL SEM GAS PET PCT 2X5L 6 FARDO 2 UNI
+        </p>
+        <p className="m-0">
+          CERVEJA AMSTEL LAGER GARRAFA 12 X 600ML 4 CX 12 GRFA
+        </p>
+        <p className="m-0">
+          CERVEJA AMSTEL LAGER LATA 12 X 269ML 312 CX 12 LATA
+        </p>
+        <p className="m-0">
+          CERVEJA HEINEKEN PURO MALTE LATA 350 ML X 12UNID 194 FARDO 12 LATA
+        </p>
+        <p className="m-0">
+          CERVEJA HEINEKEN PURO MALTE LATA 8 X 269 ML 1566 FARDO 8 LATA
+        </p>
+        <p className="m-0">
+          CERVEJA PILSEN BADEN BADEN LATA 2 X 6 X 350ML 1 FARDO 12 LATA
+        </p>
+        <p className="m-0">
+          CERVEJA PURO MALTE HEINEKEN LONG NECK 4X6X330ML 70 CX 24 GRFA
+        </p>
+        <p className="m-0">
+          CERVEJA PURO MALTE HEINEKEN SEM ALCOOL 0.0 LATA 12 X 350ML 154 CX 12
+          LATA
+        </p>
+        <p className="m-0">CERVEJA SPATEN LATA CXA 12 X 350ML 83 CX 12 UNI</p>
+        <p className="m-0">
+          CERVEJA SPATEN PURO MALTE LONG NECK CXA 24 X 355ML 2 CX 24 UNI
+        </p>
+        <p className="m-0">
+          CHOPP PILSEN REFRIGERADO GROWLER CXA 6X1,5L 143 FARDO 6 GRFA
+        </p>
+        <p className="m-0">
+          CHOPP STRAAT BIER IPA REFRIGERADO GROWLER CXA 6X1,5L 74 FARDO 6 GRFA
+        </p>
+        <p className="m-0">
+          CHOPP STRAAT PALE ALE REFRIGERADO GROWLER CXA 6X1,5L 45 FARDO 6 GRFA
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER ABSOLUTELY ZERO LATA CXA 6X473ML 1 CX 6 UNI
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER PACIFIC PUNCH LATA CXA 6X473ML 1 CX 6 UNI
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER ULTRA PARADISE LATA CXA 6X473ML 3 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER ULTRA VIOLET LATA CXA 6X473ML 2 CX 6 UNI
+        </p>
+        <p className="m-0">
+          ENERGETICO MONSTER ULTRA ZERO LATA CXA 6X473ML 1 CX 6 UNI
+        </p>
+        <p className="m-0">ESPUMANTE SALTON BRUT CXA 6X750ML 128 CX 6 UNI</p>
+        <p className="m-0">ESPUMANTE SALTON MOSCATEL CXA 6X750ML 91 CX 6 UNI</p>
+        <p className="m-0">
+          ESPUMANTE SALTON SERIES BRUT CXA 6X750ML 4 CX 6 UNI
+        </p>
+        <p className="m-0">
+          ESPUMANTE SALTON SERIES MOSCATEL CXA 6X750ML 19 CX 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE COCA COLA LATA PCT 12X350ML 32 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE COCA COLA PET PCT 12X600ML 15 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE COCA COLA PET PCT 6X2L 22 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE COCA COLA ZERO LATA PCT 12X350ML 12 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE DOLLY DE GUARANA FDO 6X2L 99 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE DOLLY DE LARANJA FDO 6X2L 123 FARDO 6 UNI
+        </p>
+        <p className="m-0">REFRIGERANTE DOLLY DE LIMAO FDO 6X2L 47 CX 6 UNI</p>
+        <p className="m-0">
+          REFRIGERANTE FANTA GUARANA PET PCT 6X2L 3 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE FANTA LARANJA LATA PCT 12X350ML 4 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE FANTA LARANJA PET PCT 12X600ML 10 FARDO 12 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE FANTA LARANJA PET PCT 6X2L 9 FARDO 6 UNI
+        </p>
+        <p className="m-0">
+          REFRIGERANTE FANTA UVA LATA PCT 6X350ML 9 FARDO 6 UNI
+        </p>
+        <p className="m-0">REFRIGERANTE FANTA UVA PET PCT 6X2L 3 FARDO 6 UNI</p>
+        <p className="m-0">
+          REFRIGERANTE SPRITE LATA PCT 6X350ML 8 FARDO 6 UNI
+        </p>
+        <p className="m-0">SKOL BEATS SENSES LATA CXA 8X269ML 1 CX 8 UNI</p>
+        <p className="m-0">SUCO DE UVA INTEGRAL CXA 6X1,5L 1 CX 6 UNI</p>
+        <p className="m-0">
+          VINHO SALTON BRANCO FRIZANTE LUNAE CXA 6X750ML 2 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CHALISE BORDO SUAVE CXA 6X1L 2 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CHALISE ROSE SUAVE CXA 6X750ML 16 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CLASSIC DEMI-SEC ROSE CXA 6X750ML 12 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CLASSIC MERLOT CXA 6X750ML 23 CX 6 UNI
+        </p>
+        <p className="m-0">
+          VINHO SALTON CLASSIC TANNAT CXA 6X750ML 26 CX 6 UNI
+        </p>
+        <p className="m-0">VODKA VORUS TRADICIONAL CXA 6X1L 1 CX 6 UNI</p>
       </Dialog>
     </div>
   );
