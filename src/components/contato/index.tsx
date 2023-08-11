@@ -47,7 +47,7 @@ function submitForm() {
           <input
             type="hidden"
             name="redirectTo"
-            value="http://localhost:3000/"
+            value="http://wfoodsdba.com.br/"
           />
           <StyledButton onClick={submitForm} type="submit" value="Submit" />
         </form>
