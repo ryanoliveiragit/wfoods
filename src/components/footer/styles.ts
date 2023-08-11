@@ -16,6 +16,7 @@ export const ContainerFooter = styled.footer`
     display: flex;
     flex-direction: column;
     font-size: 2rem;
+    padding: 5rem 2rem;
   }
 `;
 

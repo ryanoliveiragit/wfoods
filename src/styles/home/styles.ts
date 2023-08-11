@@ -8,6 +8,7 @@ export const Container = styled.div`
   @media only screen and (max-width: 900px) {
     padding: 1.6rem 1.5rem;
     height: 40rem;
+    
   }
 `;
 export const ContainerHome = styled.main`
@@ -153,7 +154,7 @@ export const SectionNumbers = styled.div`
 
   @media only screen and (max-width: 900px) {
     padding: 1.6rem 1.5rem;
-    display: flex;
+    display: none;
     gap: 3.75rem;
     flex-direction: column;
   }
