@@ -118,7 +118,7 @@ export function Servicos() {
           <h1>Nossos produtos</h1>
         </Content>
 
-        <Cards data-aos="fade-up" className="imageProducts">
+        <Cards data-aos="fade-up" className="imageProductsLast">
           <div data-aos="fade-up">
             <h4>
               <GoCheck /> Frangos
@@ -132,15 +132,25 @@ export function Servicos() {
 
           <div data-aos="fade-up">
             <h4>
-              <GoCheck /> Suínos
+              <GoCheck /> Batatas
             </h4>
             <img
-              src="https://agroceresmultimix.com.br/blog/wp-content/uploads/2015/06/ergrtgbrtgb.jpg"
+              src="https://www.quer-cafe.com/wp-content/uploads/2023/01/38-9-1024x682.png"
               alt=""
             />
-            <ModalSuinos />
+            <ModalBatata />
           </div>
 
+          <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Comodites
+            </h4>
+            <img
+              src="https://static.itdg.com.br/images/1200-675/21fd76be3b29c3290859eda5220e0e32/323683-original.jpg"
+              alt=""
+            />
+            <ModalComodites />
+          </div>
           <div data-aos="fade-up">
             <h4>
               <GoCheck /> Bovinos
@@ -154,7 +164,7 @@ export function Servicos() {
 
         </Cards>
 
-        <Cards className="imageProducts">
+        <Cards className="imageProductsLast">
           <div data-aos="fade-up">
             <h4>
               <GoCheck /> Lacticinios
@@ -224,6 +234,16 @@ export function Servicos() {
             <ModalSuinos />
           </div>
 
+          <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Descartáveis
+            </h4>
+            <img
+              src="https://cdn.awsli.com.br/600x450/446/446822/produto/18330068/1f277c8d38.jpg"
+              alt=""
+            />
+            <ModalDescartaveis />
+          </div>
           <div data-aos="fade-up">
             <h4>
               <GoCheck /> Feijoada
@@ -331,40 +351,6 @@ export function Servicos() {
 
         </Cards>
 
-    <Cards className="imageProductsLast">
-    <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> Batatas
-            </h4>
-            <img
-              src="https://www.quer-cafe.com/wp-content/uploads/2023/01/38-9-1024x682.png"
-              alt=""
-            />
-            <ModalBatata />
-          </div>
-
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> Descartáveis
-            </h4>
-            <img
-              src="https://cdn.awsli.com.br/600x450/446/446822/produto/18330068/1f277c8d38.jpg"
-              alt=""
-            />
-            <ModalDescartaveis />
-          </div>
-
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> Comodites
-            </h4>
-            <img
-              src="https://static.itdg.com.br/images/1200-675/21fd76be3b29c3290859eda5220e0e32/323683-original.jpg"
-              alt=""
-            />
-            <ModalComodites />
-          </div>
-    </Cards>
       </Container>
     </>
   );
