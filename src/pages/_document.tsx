@@ -6,6 +6,7 @@ import Document, {
   NextScript,
 } from "next/document";
 import { ServerStyleSheet } from "styled-components";
+import favicon from '../../public/favicon/favicon.ico'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -33,12 +34,11 @@ export default class MyDocument extends Document {
       <Html lang="pt-br">
         <Head>
           <meta property="og:type" content="website" />
-          <link rel="shortcut icon" href="/favicon/favicon.ico" />
+          <link rel="icon" href="/favicon/favicon.ico?<generated>" type="image/png" sizes="32x32" />
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link rel="icon" href="/favicon.ico" sizes="any" />
           <link
             href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto+Mono:wght@300;400;500&display=swap"
             rel="stylesheet"
