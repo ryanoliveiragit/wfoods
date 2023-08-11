@@ -23,7 +23,7 @@ export const Container = styled.div`
   .imageProducts {
     img {
       height: 250px;
-      width: 400px;
+      width: 100%;
     }
   }
 `;
