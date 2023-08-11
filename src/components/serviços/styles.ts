@@ -20,6 +20,12 @@ export const Container = styled.div`
   @media screen and (max-width: 1300px) {
     padding: 1.6rem 1.5rem;
   }
+  .imageProductsLast {
+    img {
+      height: 300px;
+      width: 100%;
+    }
+  }
   .imageProducts {
     img {
       height: 250px;
@@ -28,7 +34,7 @@ export const Container = styled.div`
   }
 `;
 export const Content = styled.div`
-margin-top: 4rem;
+margin-top: -8rem;
   width: 31rem;
   margin-bottom: 4rem;
   display: flex;

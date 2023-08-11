@@ -15,6 +15,14 @@ import { ModalCordeiro } from "../modal/cordeiro";
 import { ModalOleosEGorduras } from "../modal/oleosEGorduras";
 import { ModalMolhosECondimentos } from "../modal/molhosECondimentos";
 import { ModalPaesEMassas } from "../modal/paesEMassas";
+import { ModalPoupasEFrutas } from "../modal/poupasEFrutas";
+import { ModalDocesESobremesas } from "../modal/docesESobremesas";
+import { ModalBebidas } from "../modal/bebidas";
+import { ModalEspetinhos } from "../modal/espetinhos";
+import { ModalDescartaveis } from "../modal/descartaveis";
+import { ModalTemperos } from "../modal/temperos";
+import { ModalBatata } from "../modal/batata";
+import { ModalComodites } from "../modal/comodites";
 
 export function Servicos() {
   useEffect(() => {
@@ -113,7 +121,7 @@ export function Servicos() {
         <Cards data-aos="fade-up" className="imageProducts">
           <div data-aos="fade-up">
             <h4>
-              <GoCheck /> Aves
+              <GoCheck /> Frangos
             </h4>
             <img
               src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128104837161/img5.png"
@@ -146,7 +154,7 @@ export function Servicos() {
 
           <div data-aos="fade-up">
             <h4>
-              <GoCheck /> Feijoada
+              <GoCheck /> Ingredientes para feijoada
             </h4>
             <img
               src="https://blog.biglar.com.br/wp-content/uploads/2021/10/typical-brazilian-dish-called-feijoada-made-with-black-beans-pork-sausage.jpg"
@@ -216,6 +224,17 @@ export function Servicos() {
 
           <div data-aos="fade-up">
             <h4>
+              <GoCheck /> Temperos
+            </h4>
+            <img
+              src="https://media.istockphoto.com/id/938050806/pt/foto/variety-of-spices-and-herbs-on-kitchen-table.jpg?s=612x612&w=0&k=20&c=fUAeZRwr7NY9AKAdnjfTHY1xaDtgYlzGNJu9OpY0VzQ="
+              alt=""
+            />
+            <ModalTemperos />
+          </div>
+
+          <div data-aos="fade-up">
+            <h4>
               <GoCheck /> Suínos
             </h4>
             <img
@@ -223,17 +242,6 @@ export function Servicos() {
               alt=""
             />
             <ModalSuinos />
-          </div>
-
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> Bovinos
-            </h4>
-            <img
-              src="https://assets.corteva.com/is/image/Corteva/IMG-Pasto-extraordinario-mercado-carne-europeu2?$articleHeader_desktop$"
-              alt=""
-            />
-            <ModalBovinos />
           </div>
 
           <div data-aos="fade-up">
@@ -293,6 +301,90 @@ export function Servicos() {
             <ModalMolhosECondimentos />
           </div>
         </Cards>
+
+        <Cards data-aos="fade-up" className="imageProducts">
+          <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Poupas e frutas congeladas
+            </h4>
+            <img
+              src="https://www.deltafrio.com.br/img/gco-images/581-pt-br.jpg"
+              alt=""
+            />
+            <ModalPoupasEFrutas />
+          </div>
+
+          <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Doces e sobremesas
+            </h4>
+            <img
+              src="https://img.freepik.com/fotos-premium/varios-doces-e-sobremesas-na-cafeteria-sao-exibidos-de-perto_759575-6302.jpg?w=2000"
+              alt=""
+            />
+            <ModalDocesESobremesas />
+          </div>
+
+          <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Bebidas
+            </h4>
+            <img
+              src="https://media-manager.noticiasaominuto.com.br/1920/naom_6479cc4433803.jpg"
+              alt=""
+            />
+            <ModalBebidas />
+          </div>
+
+
+          <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Espetinhos e pratos prontos Ind.
+            </h4>
+            <img
+              src="https://lh3.googleusercontent.com/p/AF1QipMYX3Y7bJ_7KpGkmyVE_n4Ka6JZXQlHCtgKgoUF=w1080-h608-p-no-v0"
+              alt=""
+            />
+            <ModalEspetinhos />
+          </div>
+
+
+        </Cards>
+
+    <Cards className="imageProductsLast">
+    <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Batatas
+            </h4>
+            <img
+              src="https://www.quer-cafe.com/wp-content/uploads/2023/01/38-9-1024x682.png"
+              alt=""
+            />
+            <ModalBatata />
+          </div>
+
+          <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Descartáveis
+            </h4>
+            <img
+              src="https://cdn.awsli.com.br/600x450/446/446822/produto/18330068/1f277c8d38.jpg"
+              alt=""
+            />
+            <ModalDescartaveis />
+          </div>
+
+          <div data-aos="fade-up">
+            <h4>
+              <GoCheck /> Comodites
+            </h4>
+            <img
+              src="https://static.itdg.com.br/images/1200-675/21fd76be3b29c3290859eda5220e0e32/323683-original.jpg"
+              alt=""
+            />
+            <ModalComodites />
+          </div>
+    </Cards>
       </Container>
     </>
   );

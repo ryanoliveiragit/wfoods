@@ -22,6 +22,7 @@ import { Sobre } from "../components/sobre";
 import { Contato } from "../components/contato";
 import { Footer } from "../components/footer";
 import SliderDemo from "../components/swiper/swiper";
+import { Delivery } from "../components/delivery";
 
 export default function Home() {
   useEffect(() => {
@@ -85,6 +86,7 @@ export default function Home() {
             </div>
           </SectionNumbers>
         </Container>
+        <Delivery />
         <Servicos />
         <Sobre />
         <Contato />

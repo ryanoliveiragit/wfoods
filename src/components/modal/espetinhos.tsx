@@ -1,0 +1,79 @@
+import React, { useState } from "react";
+import { Button } from "primereact/button";
+import { Dialog } from "primereact/dialog";
+
+export const ModalEspetinhos = () => {
+  const [visible, setVisible] = useState(false);
+
+  return (
+    <div className="card flex justify-content-center">
+      <Button
+        label="Mostrar categorias"
+        icon="pi pi-external-link"
+        onClick={() => setVisible(true)}
+      />
+      <Dialog
+        header="Espetinhos e pratos prontos Industrializados"
+        visible={visible}
+        style={{ width: "50vw" }}
+        onHide={() => setVisible(false)}
+      >
+        <p className="m-0">ESPETINHO DE CAMARAO CONG 6 X 300GR</p>
+<p className="m-0">ESPETINHO DE CARNE BOV (FRALDINHA DO DIAFRAGMA)CONG 20X1,2KG</p>
+<p className="m-0">ESPETINHO DE COPA LOMBO SUINO CONG 10X600 GR</p>
+<p className="m-0">ESPETINHO DE CORAÇAO DE FRANGO TEMP CONG 10 X 600GR</p>
+<p className="m-0">ESPETINHO DE CORDEIRO TEMP CONG 6 X 600GR</p>
+<p className="m-0">ESPETINHO DE COSTELA BOV TEMP CONG 10 X 600GR</p>
+<p className="m-0">ESPETINHO DE COSTELINHA SUINA CONG 10X600 GR</p>
+<p className="m-0">ESPETINHO DE FILE DE SALMAO CONG 6 X 400GR</p>
+<p className="m-0">ESPETINHO DE FILE MIGNON BOV CONG 6 X 600GR</p>
+<p className="m-0">ESPETINHO DE FRANGO COM BACON CONG 10 X 600GR</p>
+<p className="m-0">ESPETINHO DE FRANGO TEMP CONG 10 X 600GR</p>
+<p className="m-0">ESPETINHO DE FRANGO TEMPERADO CONG A GRANEL 20 X 1,2KG</p>
+<p className="m-0">ESPETINHO DE JACARE TEMPERADO CONG 6 X 400GR</p>
+<p className="m-0">ESPETINHO DE KAFTA BOV E SUINA COM BACON CONG 8 X 600GR</p>
+<p className="m-0">ESPETINHO DE KAFTA BOVINA CONG 10 X 1,2KG</p>
+<p className="m-0">ESPETINHO DE LINGUIÇA CALABRESA APIMENTADA CONG 10 X 600GR</p>
+<p className="m-0">ESPETINHO DE LINGUIÇA CUIABANA SUINA CONG 6 X 600 GR</p>
+<p className="m-0">ESPETINHO DE LINGUIÇA TOSCANA A GRANEL CONG 16 X 1,2KG</p>
+<p className="m-0">ESPETINHO DE LINGUIÇA TOSCANA CONG 10X600 GR</p>
+<p className="m-0">ESPETINHO DE LOMBINHO BOV TEMP CONG 10 X 600GR</p>
+<p className="m-0">ESPETINHO DE LOMBINHO COM BACON CONG 10X600 GR</p>
+<p className="m-0">ESPETINHO DE MEDALHAO BOV CONG 6 X 500GR</p>
+<p className="m-0">ESPETINHO DE MEDALHAO DE BACON COM MANDIOCA CONG 6 X 500GR</p>
+<p className="m-0">ESPETINHO DE MEDALHAO DE CARNE SECA COM MANDIOCA 6X500G</p>
+<p className="m-0">ESPETINHO DE MEDALHAO DE FRANGO COM BACON CONG 6 X 500GR</p>
+<p className="m-0">ESPETINHO DE MEDALHAO DE MANDIOCA 4 QUEIJOS CONG 6 X 500GR</p>
+<p className="m-0">PAO DE ALHO BAGUETE CONG CXA 6 X 330 GR</p>
+<p className="m-0">PAO DE ALHO BAGUETE TRADICIONAL COM QUEIJO RESF CXA 12X400GR</p>
+<p className="m-0">PAO DE ALHO BOLINHA PICANTE COM QUEIJO RESF CXA 12X300GR</p>
+<p className="m-0">PAO DE ALHO BOLINHA TRADICIONAL COM QUEIJO RESF CXA 12X300GR</p>
+<p className="m-0">PÃO DE ALHO COM LINGUIÇA CONG BDJ 8 X 330GR</p>
+<p className="m-0">PAO DE ALHO TRADICIONAL BAGUETE RESF 12 X 320GR</p>
+<p className="m-0">PAO DE ALHO TRADICIONAL BOLINHA CXA 12X320G</p>
+<p className="m-0">PAO DE CEBOLA BAGUETE TRADICIONAL RESF CXA12X400GR</p>
+<p className="m-0">PAO DE PIZZA BAGUETE CONG 6 X 330GR</p>
+<p className="m-0">ESPETINHO DE PICANHA BOV CONG 6 X 600GR</p>
+<p className="m-0">ESPETINHO DE SALSICHAO COM ALHO CONG 6 X 600GR</p>
+<p className="m-0">ESPETINHO DE SALSICHAO COM PROVOLONE CONG 6 X 600GR</p>
+<p className="m-0">ESPETINHO DE TILAPIA CONG 6 X 400GR</p>
+<p className="m-0">ESPETINHO DE TULIPA DE FRANGO CONG 10 X 600GR</p>
+<p className="m-0">ESPETINHO KAFTA BOV E SUINA COM BACON E QUEIJO CONG 8X600GR</p>
+<p className="m-0">ESPETINHO YAKITORI BOV C/ PIMENTAO AM VM CEBOLA CONG 6X600GR</p>
+<p className="m-0">ESPETINHO YAKITORI FRANGO C/PIMENTAO AMA VM CEBOLA CG 6X600G</p>
+<p className="m-0">ESPETINHO YAKITORI SUI C/ PIMENTAO AM VM CEBOLA CONG 6X600GR</p>
+<p className="m-0">ESPETO MEDALHAO DE MANDIOCA C ABOBRINHA/QUEIJO CONG 6X500GR</p>
+<p className="m-0">PAO DE ALHO BAGUETE CONG CXA 6 X 330 GR</p>
+<p className="m-0">PAO DE ALHO BAGUETE TRADICIONAL COM QUEIJO RESF CXA 12X400GR</p>
+<p className="m-0">PAO DE ALHO BOLINHA PICANTE COM QUEIJO RESF CXA 12X300GR</p>
+<p className="m-0">PAO DE ALHO BOLINHA TRADICIONAL COM QUEIJO RESF CXA 12X300GR</p>
+<p className="m-0">PÃO DE ALHO COM LINGUIÇA CONG BDJ 8 X 330GR</p>
+<p className="m-0">PAO DE ALHO TRADICIONAL BAGUETE RESF 12 X 320GR</p>
+<p className="m-0">PAO DE ALHO TRADICIONAL BOLINHA CXA 12X320G</p>
+<p className="m-0">PAO DE CEBOLA BAGUETE TRADICIONAL RESF CXA12X400GR</p>
+<p className="m-0">PAO DE PIZZA BAGUETE CONG 6 X 330GR</p>
+
+      </Dialog>
+    </div>
+  );
+};

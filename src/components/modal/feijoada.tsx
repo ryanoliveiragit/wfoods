@@ -13,7 +13,7 @@ export const ModalFeijoada = () => {
         onClick={() => setVisible(true)}
       />
       <Dialog
-        header="Feijoada"
+        header="Ingredientes para feijoada"
         visible={visible}
         style={{ width: "50vw" }}
         onHide={() => setVisible(false)}

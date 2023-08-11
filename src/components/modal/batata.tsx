@@ -13,7 +13,7 @@ export const ModalBatata = () => {
         onClick={() => setVisible(true)}
       />
       <Dialog
-        header="Batata"
+        header="Batatas"
         visible={visible}
         style={{ width: "50vw" }}
         onHide={() => setVisible(false)}

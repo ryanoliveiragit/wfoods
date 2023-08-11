@@ -13,7 +13,7 @@ export const ModalFrangos = () => {
         onClick={() => setVisible(true)}
       />
       <Dialog
-        header="Aves"
+        header="Frangos"
         visible={visible}
         style={{ width: "50vw" }}
         onHide={() => setVisible(false)}
