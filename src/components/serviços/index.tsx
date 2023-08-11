@@ -201,16 +201,6 @@ export function Servicos() {
         </Cards>
 
         <Cards data-aos="fade-up" className="imageProducts">
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> AVES
-            </h4>
-            <img
-              src="https://cdn.discordapp.com/attachments/566850308702208001/1136760128104837161/img5.png"
-              alt=""
-            />
-            <ModalFrangos />
-          </div>
 
           <div data-aos="fade-up">
             <h4>
