@@ -152,16 +152,6 @@ export function Servicos() {
             <ModalBovinos />
           </div>
 
-          <div data-aos="fade-up">
-            <h4>
-              <GoCheck /> Ingredientes para feijoada
-            </h4>
-            <img
-              src="https://blog.biglar.com.br/wp-content/uploads/2021/10/typical-brazilian-dish-called-feijoada-made-with-black-beans-pork-sausage.jpg"
-              alt=""
-            />
-            <ModalFeijoada />
-          </div>
         </Cards>
 
         <Cards className="imageProducts">
