@@ -305,7 +305,7 @@ export function Servicos() {
         <Cards data-aos="fade-up" className="imageProducts">
           <div data-aos="fade-up">
             <h4>
-              <GoCheck /> Poupas e frutas congeladas
+              <GoCheck /> Poupas e frutas cong.
             </h4>
             <img
               src="https://www.deltafrio.com.br/img/gco-images/581-pt-br.jpg"
@@ -339,7 +339,7 @@ export function Servicos() {
 
           <div data-aos="fade-up">
             <h4>
-              <GoCheck /> Espetinhos e pratos prontos Ind.
+              <GoCheck /> Espetinhos/pratos Ind.
             </h4>
             <img
               src="https://lh3.googleusercontent.com/p/AF1QipMYX3Y7bJ_7KpGkmyVE_n4Ka6JZXQlHCtgKgoUF=w1080-h608-p-no-v0"
