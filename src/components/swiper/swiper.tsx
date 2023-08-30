@@ -52,7 +52,7 @@ export default function SliderDemo() {
       <div ref={sliderRef} className="keen-slider">
         <div className="keen-slider__slide number-slide1">
           <ImageSlideOne />
-          <TextSlide>Frangos</TextSlide>
+          <TextSlide>Aves</TextSlide>
         </div>
         <div className="keen-slider__slide number-slide2">
           <ImageSlideTwo />
@@ -68,7 +68,7 @@ export default function SliderDemo() {
         </div>
         <div className="keen-slider__slide number-slide5">
           <ImageSlideFive />
-          <TextSlide>Lacticínios</TextSlide>
+          <TextSlide>Laticínios</TextSlide>
         </div>
         <div className="keen-slider__slide number-slide5">
           <ImageSlideSix />

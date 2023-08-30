@@ -60,11 +60,13 @@ export default function Home() {
                   alt=""
                 />
               </Number>
-              <span>Entrega em até 24 horas e <br /> pagamento facilitado</span>
+              <span>
+                Entrega em até 24 horas e <br /> pagamento facilitado
+              </span>
               <Divider />
             </div>
             <div>
-            <Number>
+              <Number>
                 <img
                   src="https://moveracessibilidade.com.br/wp-content/uploads/2017/10/icone-produtos.png"
                   alt=""
@@ -75,9 +77,9 @@ export default function Home() {
               <Divider />
             </div>
             <div>
-            <Number>
+              <Number>
                 <img
-                  src="https://cdn.discordapp.com/attachments/1057305050805968896/1136322612016975973/abcderrrrr.png"
+                  src="https://cdn.discordapp.com/attachments/1128788400820977664/1146477244320063669/image.png"
                   alt=""
                 />
               </Number>

@@ -13,4 +13,9 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'DM Sans', sans-serif;
         -webkit-font-smoothing: antialiased;
     }
+
+    .p-button-label{
+    font-size: 14px!important;
+    font-weight: 400!important;
+  }
 `

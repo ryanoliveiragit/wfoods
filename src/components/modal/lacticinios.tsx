@@ -13,7 +13,7 @@ export const ModalLacticinios = () => {
         onClick={() => setVisible(true)}
       />
       <Dialog
-        header="Lacticínios"
+        header="Laticínios"
         visible={visible}
         style={{ width: "50vw" }}
         onHide={() => setVisible(false)}

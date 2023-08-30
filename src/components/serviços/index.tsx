@@ -1,5 +1,5 @@
 import { GoCheck } from "react-icons/go";
-import { Container, Content, Cards } from "./styles";
+import { Container, Content, Cards, CardsT } from "./styles";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -36,7 +36,7 @@ export function Servicos() {
           <span>SERVIÇOS</span>
           <h1>Como podemos ajudá-lo</h1>
         </Content>
-        <Cards data-aos="fade-up">
+        <CardsT data-aos="fade-up">
           <div data-aos="fade-up">
             <GoCheck />
             <h1>Escolha preferida</h1>
@@ -74,9 +74,8 @@ export function Servicos() {
               essenciais para a culinária.
             </p>
           </div>
-        </Cards>
-
-        <Cards data-aos="fade-up">
+          </CardsT>
+          <CardsT data-aos="fade-up">
           <div data-aos="fade-up">
             <GoCheck />
             <h1>Profissionais Qualificados</h1>
@@ -109,16 +108,19 @@ export function Servicos() {
               está aqui para atendê-lo.
             </p>
           </div>
-        </Cards>
+          </CardsT>
       </Container>
-
+<br />
+<br />
+<br />
+<br />
       <Container id="Produtos" className="produtos">
         <Content data-aos="fade-up">
           <span>produtos</span>
           <h1>Nossos produtos</h1>
         </Content>
-
-        <Cards data-aos="fade-up" className="imageProductsLast">
+        <Cards data-aos="fade-up" className="imageProducts">
+       
           <div data-aos="fade-up">
             <h4>
               <GoCheck /> Frangos
@@ -162,12 +164,10 @@ export function Servicos() {
             <ModalBovinos />
           </div>
 
-        </Cards>
-
-        <Cards className="imageProductsLast">
-          <div data-aos="fade-up">
+  
+          <div data-aos="">
             <h4>
-              <GoCheck /> Lacticinios
+              <GoCheck /> Laticínios
             </h4>
             <img
               src="https://odyssey-international.co.za/wp-content/uploads/2022/06/artigo.jpg"
@@ -176,7 +176,7 @@ export function Servicos() {
             <ModalLacticinios />
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Embutidos
             </h4>
@@ -187,7 +187,7 @@ export function Servicos() {
             <ModalEmbutidos />
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Pescados
             </h4>
@@ -208,11 +208,10 @@ export function Servicos() {
             />
             <ModalConservas />
           </div>
-        </Cards>
 
-        <Cards data-aos="fade-up" className="imageProducts">
 
-          <div data-aos="fade-up">
+
+        <div data-aos="">
             <h4>
               <GoCheck /> Temperos
             </h4>
@@ -223,7 +222,7 @@ export function Servicos() {
             <ModalTemperos />
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Suínos
             </h4>
@@ -234,7 +233,7 @@ export function Servicos() {
             <ModalSuinos />
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Descartáveis
             </h4>
@@ -244,7 +243,7 @@ export function Servicos() {
             />
             <ModalDescartaveis />
           </div>
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Feijoada
             </h4>
@@ -254,10 +253,7 @@ export function Servicos() {
             />
             <ModalFeijoada />
           </div>
-        </Cards>
-
-        <Cards className="imageProducts">
-          <div data-aos="fade-up">
+        <div data-aos="">
             <h4>
               <GoCheck /> Cordeiros
             </h4>
@@ -268,7 +264,7 @@ export function Servicos() {
             <ModalCordeiro />
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Óleos e gorduras
             </h4>
@@ -279,7 +275,7 @@ export function Servicos() {
             <ModalOleosEGorduras />
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Pães e massas e farinhas
             </h4>
@@ -290,7 +286,7 @@ export function Servicos() {
             <ModalPaesEMassas />
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Molhos e condimentos
             </h4>
@@ -300,10 +296,10 @@ export function Servicos() {
             />
             <ModalMolhosECondimentos />
           </div>
-        </Cards>
 
-        <Cards data-aos="fade-up" className="imageProducts">
-          <div data-aos="fade-up">
+
+
+        <div data-aos="">
             <h4>
               <GoCheck /> Poupas e frutas cong.
             </h4>
@@ -314,7 +310,7 @@ export function Servicos() {
             <ModalPoupasEFrutas />
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Doces e sobremesas
             </h4>
@@ -325,7 +321,7 @@ export function Servicos() {
             <ModalDocesESobremesas />
           </div>
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Bebidas
             </h4>
@@ -337,7 +333,7 @@ export function Servicos() {
           </div>
 
 
-          <div data-aos="fade-up">
+          <div data-aos="">
             <h4>
               <GoCheck /> Espetinhos/pratos Ind.
             </h4>
@@ -348,8 +344,7 @@ export function Servicos() {
             <ModalEspetinhos />
           </div>
 
-
-        </Cards>
+          </Cards>
 
       </Container>
     </>

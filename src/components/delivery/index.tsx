@@ -1,17 +1,6 @@
-import { ContainerParceiros, ContentParceiro, ContentSobre } from "./styles";
+import { ContentSobre } from "./styles";
 import { ContainerSobre, Container } from "./styles";
 import { useEffect } from "react";
-import logo from "../../assets/logo.png";
-import sadia from "../../assets/sadialogo.png";
-import aurora from "../../assets/auroralogo.png";
-import catupiru from "../../assets/catupirylogo.png";
-import frimesa from "../../assets/frimesalogo.png";
-import perdigao from "../../assets/perdigãologo.png";
-import quata from "../../assets/quatalogo.png";
-import seara from "../../assets/seara.png";
-import tirolez from "../../assets/tirolezlogo.png";
-import vigor from "../../assets/vigorlogo.png";
-import Image from "next/image";
 
 import AOS from "aos";
 import "aos/dist/aos.css";

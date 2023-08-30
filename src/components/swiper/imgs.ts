@@ -14,13 +14,14 @@ export const TextSlide = styled.div`
   position: absolute;
   font-size: 3rem;
   border-left: 10px solid ${(props) => props.theme["pink-50"]};
-  font-weight: 600;
+  font-weight: 400;
   background-color: white;
   padding: 1.5rem;
   z-index: 10;
-  top: 15rem;
-  left: 5rem;
+  top: 5rem;
+  left: 2rem;
   color: black;
+  font-style: italic;
 `;
 
 export const ImageSlideTwo = styled(ImageSlideOne)`
